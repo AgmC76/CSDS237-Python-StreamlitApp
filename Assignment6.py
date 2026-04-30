@@ -5,6 +5,7 @@ from nltk.stem.wordnet import WordNetLemmatizer
 from textblob import TextBlob
 import re
 import pandas as pd
+import sklearn
 from sklearn.datasets import load_iris
 from sklearn.ensemble import RandomForestClassifier
 
