@@ -41,7 +41,7 @@ def measure_polarity(text):
         st.success('Happy : {}'.format(custom_emoji))
     elif result < 0:
         custom_emoji = ':disappointed:'
-        st.warning('Sad : {}'.format(custom_emoji)
+        st.warning('Sad : {}'.format(custom_emoji))
     else:
         custom_emoji = ':confused:'
         st.info('Confused : {}'.format(custom_emoji))
