@@ -50,3 +50,5 @@ def measure_polarity(text):
 if st.button('Analyze'): # process when clicked
     processtxt(text)
     measure_polarity(text)
+
+# streamlit run nlp_app.py
