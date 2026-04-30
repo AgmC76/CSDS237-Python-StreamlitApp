@@ -30,7 +30,7 @@ def processtxt(text):
     # Lemmatizer
     lemmatizer = WordNetLemmatizer()
     lemmatized_words = [lemmatizer.lemmatize(word) for word in text]
-    text = " ".join(lematized_words)
+    text = " ".join(lemmatized_words)
     st.write(text)
 
 
