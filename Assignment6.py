@@ -1,3 +1,5 @@
+import streamlit as st
+
 st.title("Assignment6")
 text = st.text_area("Enter something")
 
