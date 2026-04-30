@@ -34,7 +34,7 @@ def processtxt(text):
     st.write(text)
 
 def measure_polarity(text):
-    blob = textBlob(text)
+    blob = TextBlob(text)
     sentiment_score = blob.sentiment.polarity
     if result > 0:
         custom_emoji = ':blush:'
